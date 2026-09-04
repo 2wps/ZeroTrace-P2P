@@ -1,0 +1,9 @@
+# GitHub Linguist Language Override
+# Ensure repository language statistics highlight Dart (Flutter)
+
+signaling-server/** linguist-vendored
+scripts/** linguist-vendored
+*.json linguist-generated
+*.lock linguist-generated
+*.yaml linguist-detectable
+*.dart linguist-detectable
