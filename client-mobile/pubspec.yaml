@@ -1,0 +1,31 @@
+name: zero_trace_p2p
+description: "Local-First Ephemeral Zero-Knowledge P2P Mobile Messenger"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_webrtc: ^1.6.1
+  cryptography: ^2.7.0
+  flutter_foreground_task: ^7.5.2
+  web_socket_channel: ^3.0.1
+  qr_flutter: ^4.1.0
+  uuid: ^4.5.1
+  flutter_secure_storage: ^9.2.2
+  mobile_scanner: ^6.0.2
+  image_picker: ^1.1.2
+  file_picker: ^8.1.4
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
